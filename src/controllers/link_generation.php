@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-require_once '../controllers/fonctions.php';
+require_once '/fonctions.php';
 
 $identifiantHasher = hashIdentifiant();
 

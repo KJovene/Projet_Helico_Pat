@@ -2,7 +2,7 @@
 // il faut modifier ce fichier pour vérifier les permissions (public ou privé) et s'assurer que seuls les utilisateurs autorisés peuvent télécharger le fichier
 // regardes le ficher link_generation.php 
 session_start();
-require_once '../controllers/fonctions.php';
+require_once 'fonctions.php';
 obligationConnexion();
 
 $identifiantHasher = hashIdentifiant();
